@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+}
+.navbar .logo {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  width: 85px;
+  height: 32px;
+}
+.navbar .menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color: var(--white);
+  margin-left: 9px;
+}
+.navbar .menu li {
+  margin: 0.9rem;
+}
+.navbar .menu li a {
+  font-family: "Raleway", sans-serif;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.hero {
+  padding-top: 1rem;
+}
+.hero .intro__photo {
+  width: 355px;
+  height: auto;
+}
+.hero .title__h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: var(--white);
+  text-align: center;
+}
+
+:root {
+  --darkBlueEmail: hsl(217, 28%, 15%);
+  --darkBlueMain: hsl(218, 28%, 13%);
+  --darkBlueFooter: hsl(216, 53%, 9%);
+  --darkBlueTestimonials: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html {
+  font-size: 14px;
+  background-color: var(--darkBlueMain);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.this__none {
+  display: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

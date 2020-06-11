@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;    
+
+    & .logo {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        width: 85px;
+        height: 32px;
+    }
+
+    & .menu {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        color: var(--white);
+        margin-left: 9px;
+
+        & li {            
+            margin: 0.9rem;
+        }
+
+        & li a {
+            font-family: 'Raleway', sans-serif;
+            color: var(--white);
+            text-decoration: none;
+        }
+    }    
+}

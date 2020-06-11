@@ -1,0 +1,15 @@
+.hero {
+    padding-top: 1rem;
+    
+    & .intro__photo {
+        width: 355px;
+        height: auto;
+    }
+
+    & .title__h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: var(--white);
+        text-align: center;
+    }
+}
