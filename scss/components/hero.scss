@@ -1,15 +1,42 @@
-.hero {
-    padding-top: 1rem;
-    
+.hero {  
+    width: 367px;  
+    padding-top: 3rem;
+    background-image: url(../img/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;    
+    background-position: 50% 57%;
+
     & .intro__photo {
-        width: 355px;
+        width: 300px;
         height: auto;
+        padding-left: 2.5rem;
+        padding-right: 1rem;
+        position: relative;
     }
 
     & .title__h1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: 700;
+        font-size: 23px;
         color: var(--white);
         text-align: center;
+        padding-left: 1rem;
+        padding-right: 2.5rem;
+        //position: absolute;
+    }
+
+    & img {
+        width: 375px;
+        height: 141px;
+        margin-top: -2.8rem;
+        margin-left: -1rem;
+    }
+
+    & p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: var(--white);
+        text-align: center;
+        
     }
 }
