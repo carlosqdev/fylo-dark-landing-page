@@ -17,13 +17,9 @@
     --white: hsl(0, 0%, 100%);
 }
 
-html {
-    //font-size: 14px;
-    //background-color: var(--darkBlueEmail);
-}
-
 body {
-    background-color: var(--darkBlueEmail);
+    //background-color: var(--darkBlueEmail);
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 30%,var(--darkBlueMain) 31%,var(--darkBlueMain) 100%);
     overflow-x: hidden;    
 }
 .this__none {
