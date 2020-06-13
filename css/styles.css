@@ -2,33 +2,31 @@
   display: flex;
 }
 .navbar .logo {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   padding-left: 1rem;
-  width: 85px;
-  height: 32px;
+  width: 75px;
+  height: 25px;
 }
 .navbar .menu {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   color: var(--white);
-  margin-left: 9px;
+  margin-left: 6px;
 }
 .navbar .menu li {
   margin: 0.9rem;
 }
 .navbar .menu li a {
   font-family: "Raleway", sans-serif;
+  font-size: 14px;
   color: var(--white);
   text-decoration: none;
 }
 
 .hero {
-  width: 367px;
+  width: 100%;
   padding-top: 3rem;
-  background-image: url(../img/bg-curvy-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 57%;
 }
 .hero .intro__photo {
   width: 300px;
@@ -43,8 +41,8 @@
   font-size: 23px;
   color: var(--white);
   text-align: center;
-  padding-left: 1rem;
-  padding-right: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .hero img {
   width: 375px;
@@ -55,9 +53,11 @@
 .hero p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 14px;
   color: var(--white);
   text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 :root {
@@ -70,12 +70,8 @@
   --white: hsl(0, 0%, 100%);
 }
 
-html {
-  font-size: 14px;
-  background-color: var(--darkBlueEmail);
-}
-
 body {
+  background-color: var(--darkBlueEmail);
   overflow-x: hidden;
 }
 

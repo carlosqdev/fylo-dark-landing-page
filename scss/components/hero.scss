@@ -1,9 +1,11 @@
-.hero {  
-    width: 367px;  
-    padding-top: 3rem;
-    background-image: url(../img/bg-curvy-mobile.svg);
-    background-repeat: no-repeat;    
-    background-position: 50% 57%;
+.hero {
+    //background: url(../img/bg-curvy-mobile.svg) no-repeat bottom;
+    //height: 54vh;
+    width: 100%;  
+    padding-top: 3rem;    
+    //background-image: url(../img/bg-curvy-mobile.svg);    
+    //background-repeat: no-repeat;    
+    //background-position: 50% 57%;
 
     & .intro__photo {
         width: 300px;
@@ -19,8 +21,8 @@
         font-size: 23px;
         color: var(--white);
         text-align: center;
-        padding-left: 1rem;
-        padding-right: 2.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         //position: absolute;
     }
 
@@ -34,9 +36,11 @@
     & p {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
-        font-size: 17px;
+        font-size: 14px;
         color: var(--white);
         text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
         
     }
 }
