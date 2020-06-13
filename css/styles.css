@@ -1,23 +1,23 @@
-.navbar {
+.header .wrapper .header__content {
   display: flex;
 }
-.navbar .logo {
+.header .wrapper .header__content .header__logo {
   padding-top: 1.5rem;
   padding-left: 1rem;
   width: 75px;
   height: 25px;
 }
-.navbar .menu {
+.header .wrapper .header__content .menu {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   color: var(--white);
   margin-left: 6px;
 }
-.navbar .menu li {
+.header .wrapper .header__content .menu .menu__item {
   margin: 0.9rem;
 }
-.navbar .menu li a {
+.header .wrapper .header__content .menu .menu__item a {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: var(--white);
@@ -25,21 +25,23 @@
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
   background: url(../img/bg-curvy-mobile.svg) no-repeat;
   background-position-y: center;
   width: 100%;
   padding-top: 3rem;
 }
-.hero .intro__photo {
+.hero .wrapper .hero__content {
+  display: flex;
+  flex-direction: column;
+}
+.hero .wrapper .hero__content .hero__image .hero__imageSrc {
   width: 300px;
   height: auto;
   padding-left: 2.5rem;
   padding-right: 1rem;
   position: relative;
 }
-.hero .title__h1 {
+.hero .wrapper .hero__content .hero__description .title__h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 23px;
@@ -48,13 +50,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.hero img {
-  width: 375px;
-  height: 141px;
-  margin-top: -2.8rem;
-  margin-left: -1rem;
-}
-.hero p {
+.hero .wrapper .hero__content .hero__description .copy {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -63,7 +59,7 @@
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.hero .hero__button {
+.hero .wrapper .hero__content .hero__description .button {
   background: radial-gradient(var(--cyan), var(--blue));
   color: var(--white);
   font-size: 14px;
@@ -87,7 +83,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 30%, var(--darkBlueMain) 31%, var(--darkBlueMain) 100%);
+  background: linear-gradient(to bottom, var(--white) 0%, var(--white) 31%, var(--darkBlueMain) 32%, var(--darkBlueMain) 100%);
   overflow-x: hidden;
 }
 

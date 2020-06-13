@@ -1,64 +1,60 @@
 .hero {
-    display: flex;
-    flex-direction: column;
     background: url(../img/bg-curvy-mobile.svg) no-repeat;
     background-position-y: center;
-    
-    //height: 54vh;
     width: 100%;  
-    padding-top: 3rem;    
-    //background-image: url(../img/bg-curvy-mobile.svg);    
-    //background-repeat: no-repeat;    
-    //background-position: 50% 57%;
+    padding-top: 3rem;
 
-    & .intro__photo {
-        width: 300px;
-        height: auto;
-        padding-left: 2.5rem;
-        padding-right: 1rem;
-        position: relative;
-    }
+    & .wrapper {
+        & .hero__content {
+            display: flex;
+            flex-direction: column;            
 
-    & .title__h1 {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 23px;
-        color: var(--white);
-        text-align: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        //position: absolute;
-    }
+            & .hero__image {
+                & .hero__imageSrc {
+                    width: 300px;
+                    height: auto;
+                    padding-left: 2.5rem;
+                    padding-right: 1rem;
+                    position: relative;
 
-    & img {
-        width: 375px;
-        height: 141px;
-        margin-top: -2.8rem;
-        margin-left: -1rem;
-    }
+                }
+            }
 
-    & p {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        color: var(--white);
-        text-align: center;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        
-    }
+            & .hero__description {
+                & .title__h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 700;
+                    font-size: 23px;
+                    color: var(--white);
+                    text-align: center;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                }
 
-    & .hero__button {
-        background: radial-gradient(var(--cyan), var(--blue));
-        //background-color: var(--blue);
-        color: var(--white);
-        font-size: 14px;
-        font-weight: 700;
-        padding: 0.8rem 1rem;
-        border-radius: 1.3rem;
-        border-color: transparent;        
-        margin-top: 1rem;
-        margin-left: 3.5rem;
-        margin-right: 3.5rem;        
+                & .copy {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: var(--white);
+                    text-align: center;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    
+                }
+
+                & .button {
+                    background: radial-gradient(var(--cyan), var(--blue));                   
+                    color: var(--white);
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 0.8rem 1rem;
+                    border-radius: 1.3rem;
+                    border-color: transparent;        
+                    margin-top: 1rem;
+                    margin-left: 3.5rem;
+                    margin-right: 3.5rem;        
+                }
+            }
+        }
     }
 }
