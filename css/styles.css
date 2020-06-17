@@ -75,7 +75,24 @@
   padding: 0.8rem 1rem;
   border-radius: 1.3rem;
   border-color: transparent;
-  margin: 1.8rem 3.5rem 0 3.5rem;
+  margin: 1.8rem 4.7rem 0 4.7rem;
+}
+
+.why {
+  margin-top: 8rem;
+}
+.why .wrapper .why__grid .why__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.why .wrapper .why__grid .why__item .why__title__h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--white);
+  margin-top: 1.5rem;
 }
 
 :root {
