@@ -10,11 +10,14 @@
             flex-direction: column;            
 
             & .hero__image {
+                display: flex;
+                justify-content: center;
+                
                 & .hero__imageSrc {
-                    width: 300px;
+                    width: 80%;
                     height: auto;
-                    padding-left: 2.5rem;
-                    padding-right: 1rem;
+                    //padding-left: 2.5rem;
+                    //padding-right: 1rem;
                     margin-bottom: 0.5rem;
                     position: relative;
                 }
