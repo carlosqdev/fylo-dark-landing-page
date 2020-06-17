@@ -130,6 +130,14 @@
   color: var(--white);
   padding: 0 1.5rem 0 1.5rem;
 }
+.why .wrapper .why__content .why__description .why__div {
+  padding: 0 1.5rem 0 1.5rem;
+  display: flex;
+  align-items: stretch;
+}
+.why .wrapper .why__content .why__description .why__div a {
+  color: var(--cyan);
+}
 
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
