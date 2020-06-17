@@ -18,6 +18,14 @@
                     color: var(--white);
                     margin-top: 1.5rem;
                 }
+
+                & .why__copy {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 1.6;
+                    color: var(--white);
+                }
             }
         }
     }

@@ -94,6 +94,13 @@
   color: var(--white);
   margin-top: 1.5rem;
 }
+.why .wrapper .why__grid .why__item .why__copy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--white);
+}
 
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
