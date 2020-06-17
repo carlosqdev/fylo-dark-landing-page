@@ -1,6 +1,5 @@
 .hero {
-    background: url(../img/bg-curvy-mobile.svg) no-repeat;
-    background-origin: content-box;
+    background: url(../img/bg-curvy-mobile.svg) no-repeat;    
     background-position: left;
     width: 100%;  
     padding-top: 3rem;
@@ -16,18 +15,23 @@
                     height: auto;
                     padding-left: 2.5rem;
                     padding-right: 1rem;
+                    margin-bottom: 0.5rem;
                     position: relative;
-
                 }
             }
 
             & .hero__description {
+                display: flex;
+                flex-direction: column;
+
                 & .title__h1 {
                     font-family: 'Raleway', sans-serif;
                     font-weight: 700;
-                    font-size: 23px;
+                    font-size: 24px;
+                    line-height: 1.6;
                     color: var(--white);
                     text-align: center;
+                    //margin-top: 1rem;
                     padding-left: 2rem;
                     padding-right: 2rem;
                 }
@@ -43,7 +47,7 @@
                     
                 }
 
-                & .button {
+                & .button {                    
                     background: radial-gradient(var(--cyan), var(--blue));                   
                     color: var(--white);
                     font-size: 14px;
@@ -52,8 +56,8 @@
                     border-radius: 1.3rem;
                     border-color: transparent;        
                     margin-top: 1rem;
-                    margin-left: 3.5rem;
-                    margin-right: 3.5rem;        
+                    // margin-left: 3.5rem;
+                    // margin-right: 3.5rem;        
                 }
             }
         }
