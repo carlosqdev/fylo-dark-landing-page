@@ -1,6 +1,7 @@
 .hero {
     background: url(../img/bg-curvy-mobile.svg) no-repeat;
-    background-position-y: center;
+    background-origin: content-box;
+    background-position: left;
     width: 100%;  
     padding-top: 3rem;
 
