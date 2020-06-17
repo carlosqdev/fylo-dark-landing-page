@@ -31,5 +31,42 @@
                 }
             }
         }
+
+        & .why__content {
+
+            & .why__image {                
+                display: flex;
+                justify-content: center;
+
+                & .why__imageSrc {
+                    margin-top: 5rem;
+                    width: 80%;
+                    height: auto;                    
+                }
+            }
+
+            & .why__description {                
+                
+                & .why__title__h1 {
+                    font-family: "Raleway", sans-serif;
+                    font-weight: 700;
+                    font-size: 19px;
+                    color: var(--white);
+                    //text-align: center;
+                    margin-top: 3rem;
+                    margin-bottom: 0;
+                    padding: 0 1.5rem 0 1.5rem;
+                }
+
+                & .why__copy {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: var(--white);                    
+                    padding: 0 1.5rem 0 1.5rem;
+                }
+            }
+        }
     }
 }

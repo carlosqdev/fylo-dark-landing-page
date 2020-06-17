@@ -104,6 +104,32 @@
   color: var(--white);
   padding: 0 2rem 0 2rem;
 }
+.why .wrapper .why__content .why__image {
+  display: flex;
+  justify-content: center;
+}
+.why .wrapper .why__content .why__image .why__imageSrc {
+  margin-top: 5rem;
+  width: 80%;
+  height: auto;
+}
+.why .wrapper .why__content .why__description .why__title__h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--white);
+  margin-top: 3rem;
+  margin-bottom: 0;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.why .wrapper .why__content .why__description .why__copy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--white);
+  padding: 0 1.5rem 0 1.5rem;
+}
 
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
