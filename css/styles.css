@@ -130,13 +130,21 @@
   color: var(--white);
   padding: 0 1.5rem 0 1.5rem;
 }
-.why .wrapper .why__content .why__description .why__div {
+.why .wrapper .why__content .why__description .why__footer {
   padding: 0 1.5rem 0 1.5rem;
   display: flex;
   align-items: stretch;
 }
-.why .wrapper .why__content .why__description .why__div a {
+.why .wrapper .why__content .why__description .why__footer a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
   color: var(--cyan);
+  text-decoration: none;
+}
+.why .wrapper .why__content .why__description .why__footer img {
+  margin-left: 0.3rem;
 }
 
 :root {
@@ -152,11 +160,11 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 22%, var(--darkBlueMain) 23%, var(--darkBlueMain) 100%);
+  background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 17%, var(--darkBlueMain) 18%, var(--darkBlueMain) 100%);
   overflow-x: hidden;
 }
 
-.this__none {
+.this__hide {
   display: none;
 }
 
