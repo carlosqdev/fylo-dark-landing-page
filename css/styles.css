@@ -138,7 +138,7 @@
 .why .wrapper .why__content .why__description .why__footer a {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   color: var(--cyan);
   text-decoration: none;
@@ -147,10 +147,13 @@
   margin-left: 0.3rem;
 }
 
+.info {
+  margin-top: 9.5rem;
+}
 .info .wrapper .card {
   padding-left: 3rem;
   padding-right: 3rem;
-  border: 1px solid red;
+  margin-bottom: 1.5rem;
 }
 .info .wrapper .card .card__image_quotes {
   width: 8%;
@@ -162,8 +165,8 @@
   margin-top: -5px;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
-  padding-top: 0.7rem;
-  padding-bottom: 0.4rem;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
   background-color: var(--darkBlueTestimonials);
 }
 .info .wrapper .card .card__item .card__body .card__copy {
@@ -218,7 +221,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 17%, var(--darkBlueMain) 18%, var(--darkBlueMain) 100%);
+  background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 14%, var(--darkBlueMain) 14%, var(--darkBlueMain) 100%);
   overflow-x: hidden;
 }
 

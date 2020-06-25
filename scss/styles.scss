@@ -23,9 +23,8 @@
 body {
     padding: 0;
     margin: 0;
-    //background-color: var(--darkBlueEmail);
-    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 17%,var(--darkBlueMain) 18%,var(--darkBlueMain) 100%);
-    overflow-x: hidden;    
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 14%,var(--darkBlueMain) 14%,var(--darkBlueMain) 100%);
+    overflow-x: hidden;
 }
 .this__hide {
     display: none;
