@@ -8,14 +8,17 @@
             border: 1px solid red;
 
             & .card__image_quotes {
-                width: 6%;
+                width: 8%;
                 height: auto;
+                margin-left: 0.5rem;
             }
 
             & .card__item {
-                border: 1px solid blue;
-                padding-left: 0.7rem;
-                padding-right: 0.7rem;
+                //border: 1px solid blue;
+                border-radius: 3%;
+                margin-top: -5px;
+                padding-left: 1.3rem;
+                padding-right: 1.3rem;
                 padding-top: 0.7rem;
                 padding-bottom: 0.4rem;
                 background-color: var(--darkBlueTestimonials);
@@ -25,7 +28,7 @@
                     & .card__copy {
                         font-family: 'Open Sans', sans-serif;
                         font-weight: 400;
-                        font-size: 11px;
+                        font-size: 10px;
                         line-height: 1.8;
                         color: var(--white);
                     }
@@ -52,7 +55,7 @@
                         & .card__name {
                             font-family: 'Open Sans', sans-serif;
                             font-weight: bold;
-                            font-size: 11px;                            
+                            font-size: 11px;
                             color: var(--white);
                             margin-bottom: 0;
                             margin-top: 0.2rem;
@@ -61,7 +64,7 @@
                         & .card__position {
                             font-family: 'Open Sans', sans-serif;
                             font-weight: 400;
-                            font-size: 8px;                            
+                            font-size: 8px;
                             color: var(--white);
                             margin-top: 0.1rem;
                         }
