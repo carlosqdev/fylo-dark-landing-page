@@ -208,6 +208,11 @@
   margin-top: 0.1rem;
 }
 
+.footer {
+  background-color: var(--darkBlueFooter);
+  color: white;
+}
+
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
   --darkBlueMain: hsl(218, 28%, 13%);
