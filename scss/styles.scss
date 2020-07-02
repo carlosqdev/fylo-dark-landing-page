@@ -2,6 +2,7 @@
 @import './components/hero.scss';
 @import './components/why.scss';
 @import './components/info.scss';
+@import './components/signup.scss';
 @import './components/footer.scss';
 
 :root {
@@ -12,12 +13,10 @@
     --darkBlueTestimonials: hsl(219, 30%, 18%); //(testimonials background)
 
     //Color Accent
-
     --cyan: hsl(176, 68%, 64%); //(inside call-to-action gradient)
     --blue: hsl(198, 60%, 50%); //(inside call-to-action gradient)
 
     //Color Neutral
-
     --white: hsl(0, 0%, 100%);
 }
 

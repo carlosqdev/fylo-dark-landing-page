@@ -1,0 +1,18 @@
+.sign__up {
+    border: 1px solid red;
+
+    .sign__container {
+        border: 1px solid blue;
+        background-color: var(--darkBlueTestimonials);
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+
+        .sign__title__h1 {
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            font-size: 19px;
+            color: var(--white);
+            text-align: center;
+        }
+    }
+}
