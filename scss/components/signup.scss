@@ -1,8 +1,10 @@
 .sign__up {
+    position: relative;
+    top: 175px;
 
     .wrapper {
-        border: 1px solid blue;
-        border-radius: 4%;
+        border: 1px solid var(--darkBlueEmail);
+        border-radius: 3%;
         background-color: var(--darkBlueMain);
         padding-left: 1.3rem;
         padding-right: 1.3rem;
