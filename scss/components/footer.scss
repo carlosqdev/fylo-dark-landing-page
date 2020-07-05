@@ -6,26 +6,63 @@
         margin-right: 2rem;
 
         .footer__logo {
+            width: 55%;
+            height: auto;
             margin-top: 15.6rem;
         }
 
         .footer__contact {
             margin-top: 3rem;
 
-            .contact__item {
+            .item__direction {
                 display: flex;
 
-                .footer__imageSrc {
+                #img__direction {
                     width: 1rem;
-                    height: 1rem;
+                    height: 1.1rem;
                     margin-top: 0.6rem;
-                    margin-right: 1rem;
+                    margin-right: 1.3rem;
                 }
-                .footer__copy {
+                .copy__direction {
                     font-family: 'Open Sans', sans-serif;
                     font-weight: 400;
-                    font-size: 15px;
-                    line-height: 1.6;
+                    font-size: 16px;
+                    line-height: 1.8;
+                    color: var(--white);
+                    margin-top: 0px;
+                }
+            }
+
+            .item__phone {
+                display: flex;
+
+                #img__phone {
+                    width: 0.9rem;
+                    height: 0.9rem;
+                    margin-right: 1.3rem;
+                }
+                .copy__phone {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: var(--white);
+                    margin-top: 0px;
+                }
+            }
+
+            .item__email {
+                margin-top: 0.7rem;
+                display: flex;
+
+                #img__email {
+                    width: 1.1rem;
+                    height: 1.1rem;
+                    margin-right: 1.3rem;
+                }
+                .copy__email {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
                     color: var(--white);
                     margin-top: 0px;
                 }

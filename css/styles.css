@@ -271,25 +271,58 @@
   margin-right: 2rem;
 }
 .footer .wrapper .footer__logo {
+  width: 55%;
+  height: auto;
   margin-top: 15.6rem;
 }
 .footer .wrapper .footer__contact {
   margin-top: 3rem;
 }
-.footer .wrapper .footer__contact .contact__item {
+.footer .wrapper .footer__contact .item__direction {
   display: flex;
 }
-.footer .wrapper .footer__contact .contact__item .footer__imageSrc {
+.footer .wrapper .footer__contact .item__direction #img__direction {
   width: 1rem;
-  height: 1rem;
+  height: 1.1rem;
   margin-top: 0.6rem;
-  margin-right: 1rem;
+  margin-right: 1.3rem;
 }
-.footer .wrapper .footer__contact .contact__item .footer__copy {
+.footer .wrapper .footer__contact .item__direction .copy__direction {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--white);
+  margin-top: 0px;
+}
+.footer .wrapper .footer__contact .item__phone {
+  display: flex;
+}
+.footer .wrapper .footer__contact .item__phone #img__phone {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 1.3rem;
+}
+.footer .wrapper .footer__contact .item__phone .copy__phone {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--white);
+  margin-top: 0px;
+}
+.footer .wrapper .footer__contact .item__email {
+  margin-top: 0.7rem;
+  display: flex;
+}
+.footer .wrapper .footer__contact .item__email #img__email {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: 1.3rem;
+}
+.footer .wrapper .footer__contact .item__email .copy__email {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   color: var(--white);
   margin-top: 0px;
 }
