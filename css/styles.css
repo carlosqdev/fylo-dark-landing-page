@@ -208,21 +208,54 @@
   margin-top: 0.1rem;
 }
 
-.sign__up {
-  border: 1px solid red;
-}
-.sign__up .sign__container {
+.sign__up .wrapper {
   border: 1px solid blue;
-  background-color: var(--darkBlueTestimonials);
+  border-radius: 4%;
+  background-color: var(--darkBlueMain);
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-.sign__up .sign__container .sign__title__h1 {
+.sign__up .wrapper .sign__title__h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 19px;
   color: var(--white);
   text-align: center;
+  margin-top: 2.3rem;
+}
+.sign__up .wrapper .sign__copy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--white);
+}
+.sign__up .wrapper .sign__container {
+  display: flex;
+  flex-direction: column;
+}
+.sign__up .wrapper .sign__container .sign__email {
+  color: var(--darkBlueMain);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1rem 2.3rem;
+  border-radius: 1.3rem;
+  border-color: transparent;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.sign__up .wrapper .sign__container .button {
+  background: radial-gradient(var(--cyan), var(--blue));
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 1rem 1rem;
+  border-radius: 1.3rem;
+  border-color: transparent;
+  margin-bottom: 2.3rem;
 }
 
 .footer {
