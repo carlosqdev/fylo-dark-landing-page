@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--darkBlueFooter);
-    color: white;
+
     .wrapper {
         margin-left: 2rem;
         margin-right: 2rem;
@@ -88,18 +88,27 @@
             }
         }
         .footer__social {
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem;
+            margin-bottom: 1.5rem;
 
-            .icon__facebook {
+            .circle {
+                border: 1px solid var(--white);
+                border-radius: 50%;
+                padding-top: 0.4rem;
+                padding-bottom: 0.3rem;
+                margin-left: 0.3rem;
+                margin-right: 0.3rem;
 
-            }
-            .icon__twitter {
-                width: 25px;
-                height: 25px;
-                background-repeat: no-repeat;
-                //background-image: url(./img/icon-twitter.svg);
-            }
-            .icon__instagram {
+                .icon__social {
+                    margin-left: 0.3rem;
+                    margin-right: 0.3rem;
 
+                    img {
+                        width: 0.8rem;
+                    }
+                }
             }
         }
     }

@@ -264,7 +264,6 @@
 
 .footer {
   background-color: var(--darkBlueFooter);
-  color: white;
 }
 .footer .wrapper {
   margin-left: 2rem;
@@ -343,11 +342,28 @@
   text-decoration: none;
   margin-bottom: 0.6rem;
 }
-.footer .wrapper .footer__social .icon__twitter {
-  width: 25px;
-  height: 25px;
-  background-repeat: no-repeat;
+.footer .wrapper .footer__social {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
 }
+.footer .wrapper .footer__social .circle {
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  padding-top: 0.4rem;
+  padding-bottom: 0.3rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+.footer .wrapper .footer__social .circle .icon__social {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+.footer .wrapper .footer__social .circle .icon__social img {
+  width: 0.8rem;
+}
+
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
   --darkBlueMain: hsl(218, 28%, 13%);
@@ -361,7 +377,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 9%, var(--darkBlueMain) 10.9%, var(--darkBlueMain) 100%);
+  background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 9.7%, var(--darkBlueMain) 9%, var(--darkBlueMain) 100%);
   overflow-x: hidden;
 }
 
