@@ -343,7 +343,11 @@
   text-decoration: none;
   margin-bottom: 0.6rem;
 }
-
+.footer .wrapper .footer__social .icon__twitter {
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+}
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
   --darkBlueMain: hsl(218, 28%, 13%);
