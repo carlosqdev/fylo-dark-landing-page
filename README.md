@@ -1,4 +1,3 @@
-# Frontend Mentor - Fylo landing page with dark theme
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
