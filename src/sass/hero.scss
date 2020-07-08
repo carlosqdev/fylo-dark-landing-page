@@ -1,19 +1,20 @@
 .hero {
-    background: url(../img/bg-curvy-mobile.svg) no-repeat;
-    background-position: left;
-    width: 100%;
-    padding-top: 3rem;
+    .wrapper {
+        background: url(../img/bg-curvy-mobile.svg) no-repeat;
+        background-position: left;
+        background-size: contain;
+        width: 100%;
+        padding-top: 3rem;
 
-    & .wrapper {
-        & .hero__content {
+        .hero__content {
             display: flex;
             flex-direction: column;
 
-            & .hero__image {
+            .hero__image {
                 display: flex;
                 justify-content: center;
 
-                & .hero__imageSrc {
+                .hero__imageSrc {
                     width: 80%;
                     height: auto;
                     margin-bottom: 0.5rem;
@@ -21,11 +22,11 @@
                 }
             }
 
-            & .hero__description {
+            .hero__description {
                 display: flex;
                 flex-direction: column;
 
-                & .title__h1 {
+                .title__h1 {
                     font-family: 'Raleway', sans-serif;
                     font-weight: 700;
                     font-size: 24px;
@@ -35,8 +36,7 @@
                     padding-left: 2rem;
                     padding-right: 2rem;
                 }
-
-                & .copy {
+                .copy {
                     font-family: 'Open Sans', sans-serif;
                     font-weight: 400;
                     font-size: 14px;
@@ -45,8 +45,7 @@
                     text-align: center;
                     margin: 0 2.5rem 0 2.5rem;
                 }
-
-                & .button {
+                .button {
                     background: radial-gradient(var(--cyan), var(--blue));
                     color: var(--white);
                     font-size: 14px;
@@ -55,6 +54,35 @@
                     border-radius: 1.3rem;
                     border-color: transparent;
                     margin: 1.8rem 4.7rem 0 4.7rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 425px) {
+    .hero {
+        .wrapper {
+            .hero__content {
+                .hero__image {
+
+                    .hero__imageSrc {
+                        margin-bottom: 5rem;
+                    }
+                }
+                .hero__description {
+                    position: relative;
+                    top: -69px;
+
+                    .title__h1 {
+                        padding-left: 2.5rem;
+                        padding-right: 2.5rem;
+                    }
+                    .copy {
+                            margin: 0 4rem 0 4rem;
+                    }
+                    .button {
+                        margin: 1.8rem 5.7rem 0 5.7rem;
+                    }
                 }
             }
         }

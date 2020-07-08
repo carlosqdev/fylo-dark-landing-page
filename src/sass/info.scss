@@ -1,20 +1,18 @@
 .info {
     margin-top: 9.5rem;
 
-    & .wrapper {
-
-        & .card {
+    .wrapper {
+        .card {
             padding-left: 3rem;
             padding-right: 3rem;
             margin-bottom: 1.5rem;
 
-            & .card__image_quotes {
+            .card__image_quotes {
                 width: 8%;
                 height: auto;
                 margin-left: 0.5rem;
             }
-
-            & .card__item {
+            .card__item {
                 border-radius: 3%;
                 margin-top: -5px;
                 padding-left: 1.3rem;
@@ -23,9 +21,9 @@
                 padding-bottom: 0.8rem;
                 background-color: var(--darkBlueTestimonials);
 
-                & .card__body {
+                .card__body {
 
-                    & .card__copy {
+                    .card__copy {
                         font-family: 'Open Sans', sans-serif;
                         font-weight: 400;
                         font-size: 10px;
@@ -34,25 +32,25 @@
                     }
                 }
 
-                & .card__footer {
+                .card__footer {
                     display: flex;
 
-                    & .card__image {
+                    .card__image {
                         width: 10%;
                         margin-right: 0.7rem;
                         margin-top: 0.3rem;
 
-                        & .card__imageSrc {
+                        .card__imageSrc {
                             border-radius: 50%;
                             width: 100%;
                         }
                     }
 
-                    & .card__info {
+                    .card__info {
                         display: flex;
                         flex-direction: column;
 
-                        & .card__name {
+                        .card__name {
                             font-family: 'Open Sans', sans-serif;
                             font-weight: bold;
                             font-size: 11px;
@@ -61,7 +59,7 @@
                             margin-top: 0.2rem;
                         }
 
-                        & .card__position {
+                        .card__position {
                             font-family: 'Open Sans', sans-serif;
                             font-weight: 400;
                             font-size: 8px;

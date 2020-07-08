@@ -11,21 +11,20 @@
     --darkBlueMain: hsl(218, 28%, 13%); //(main background)
     --darkBlueFooter: hsl(216, 53%, 9%); //(footer background)
     --darkBlueTestimonials: hsl(219, 30%, 18%); //(testimonials background)
-
     //Color Accent
     --cyan: hsl(176, 68%, 64%); //(inside call-to-action gradient)
     --blue: hsl(198, 60%, 50%); //(inside call-to-action gradient)
-
     //Color Neutral
     --white: hsl(0, 0%, 100%);
 }
-
 body {
     padding: 0;
     margin: 0;
     background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 9.7%,var(--darkBlueMain) 9%,var(--darkBlueMain) 100%);
     overflow-x: hidden;
 }
-.this__hide {
-    display: none;
+@media screen and (min-width: 425px) {
+    body {
+        background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 10.7%,var(--darkBlueMain) 9%,var(--darkBlueMain) 100%);
+    }
 }

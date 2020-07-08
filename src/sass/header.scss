@@ -1,32 +1,40 @@
 .header {
     .wrapper {
-
         .header__content {
             display: flex;
 
-            & .header__logo {
+            .header__logo {
                 padding-top: 1.5rem;
                 padding-left: 1rem;
                 width: 75px;
                 height: 25px;
             }
-
-            & .menu {
+            .menu {
                 display: flex;
                 justify-content: flex-end;
                 list-style: none;
                 color: var(--white);
                 margin-left: 6px;
 
-                & .menu__item {
+                .menu__item {
                     margin: 0.9rem;
                 }
-
-                & .menu__item a {
+                .menu__item a {
                     font-family: 'Raleway', sans-serif;
                     font-size: 14px;
                     color: var(--white);
                     text-decoration: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 425px) {
+    .header {
+        .wrapper {
+            .header__content {
+                .menu {
+                    margin-left: 3.5rem;
                 }
             }
         }
