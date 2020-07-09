@@ -29,6 +29,22 @@
     margin-left: 3.5rem;
   }
 }
+@media screen and (min-width: 768px) {
+  .header .wrapper .header__content .header__logo {
+    padding-left: 3.5rem;
+    width: 90px;
+    height: 30px;
+  }
+  .header .wrapper .header__content .menu {
+    margin-left: 18.5rem;
+  }
+  .header .wrapper .header__content .menu .menu__item {
+    margin: 0.9rem;
+  }
+  .header .wrapper .header__content .menu .menu__item a {
+    font-size: 16px;
+  }
+}
 .hero .wrapper {
   background: url(../img/bg-curvy-mobile.svg) no-repeat;
   background-position: left;
@@ -406,6 +422,11 @@ body {
 }
 
 @media screen and (min-width: 425px) {
+  body {
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 10.7%, var(--darkBlueMain) 9%, var(--darkBlueMain) 100%);
+  }
+}
+@media screen and (min-width: 768px) {
   body {
     background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 10.7%, var(--darkBlueMain) 9%, var(--darkBlueMain) 100%);
   }

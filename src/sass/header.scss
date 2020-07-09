@@ -40,3 +40,26 @@
         }
     }
 }
+@media screen and (min-width: 768px) {
+    .header {
+        .wrapper {
+            .header__content {                
+                .header__logo {
+                    padding-left: 3.5rem;
+                    width: 90px;
+                    height: 30px;
+                }
+                .menu {
+                    margin-left: 18.5rem;
+
+                    .menu__item {
+                        margin: 0.9rem;
+                    }
+                    .menu__item a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
