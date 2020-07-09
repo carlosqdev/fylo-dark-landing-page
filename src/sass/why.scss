@@ -40,7 +40,6 @@
                 }
             }
             .why__description {
-
                 .why__title__h1 {
                     font-family: "Raleway", sans-serif;
                     font-weight: 700;
@@ -73,6 +72,37 @@
                     }
                     img {
                         margin-left: 0.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .why {
+        .wrapper {
+            .why__grid {
+                .why__item {
+                    .why__copy {
+                        padding: 0 14.5rem 0 14.5rem;
+                    }
+                }
+            }
+            .why__content {
+                .why__image {
+                    .why__imageSrc {
+                        width: 60%;
+                    }
+                }
+                .why__description {
+                    .why__title__h1 {
+                        padding: 0 3.5rem 0 3.5rem;
+                    }
+                    .why__copy {
+                        padding: 0 3.5rem 0 3.5rem;
+                    }
+                    .why__footer {
+                        padding: 0 3.5rem 0 3.5rem;
                     }
                 }
             }

@@ -2,6 +2,7 @@
     .wrapper {
         .header__content {
             display: flex;
+            background-color: var(--darkBlueEmail);
 
             .header__logo {
                 padding-top: 1.5rem;
@@ -43,7 +44,7 @@
 @media screen and (min-width: 768px) {
     .header {
         .wrapper {
-            .header__content {                
+            .header__content {
                 .header__logo {
                     padding-left: 3.5rem;
                     width: 90px;
