@@ -125,7 +125,7 @@
   }
   .hero .wrapper .hero__content .hero__image .hero__imageSrc {
     width: 70%;
-    margin-bottom: 1rem;
+    margin-bottom: 0px;
   }
   .hero .wrapper .hero__content .hero__description {
     top: 26px;
@@ -289,6 +289,12 @@
   margin-top: 0.1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .info .wrapper .card {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
 .sign__up {
   position: relative;
   top: 175px;
@@ -343,6 +349,12 @@
   margin-bottom: 2.3rem;
 }
 
+@media screen and (min-width: 768px) {
+  .sign__up .wrapper {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
 .footer {
   background-color: var(--darkBlueFooter);
 }
@@ -445,6 +457,12 @@
   width: 0.8rem;
 }
 
+@media screen and (min-width: 768px) {
+  .footer .wrapper {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
   --darkBlueMain: hsl(218, 28%, 13%);
@@ -469,7 +487,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   body {
-    background: linear-gradient(to bottom, var(--white) 0%, var(--white) 17.6%, var(--darkBlueMain) 17.6%, var(--darkBlueMain) 100%);
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 17%, var(--darkBlueMain) 17%, var(--darkBlueMain) 100%);
   }
 }
 

@@ -72,3 +72,13 @@
         }
     }
 }
+@media screen and (min-width: 768px) {
+    .info {
+        .wrapper {
+            .card {
+                padding-left: 10rem;
+                padding-right: 10rem;
+            }
+        }
+    }
+}
