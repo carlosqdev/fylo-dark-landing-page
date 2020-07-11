@@ -1,8 +1,12 @@
 .header {
+    width: 100%;
+    position: fixed;
+    background-color: var(--darkBlueEmail);
+    z-index: 100;
+
     .wrapper {
         .header__content {
             display: flex;
-            background-color: var(--darkBlueEmail);
 
             .header__logo {
                 padding-top: 1.5rem;

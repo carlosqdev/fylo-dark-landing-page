@@ -4,7 +4,7 @@
         background-position: left;
         background-size: contain;
         width: 100%;
-        padding-top: 3rem;
+        padding-top: 14rem;
 
         .hero__content {
             display: flex;
@@ -18,13 +18,16 @@
                     width: 80%;
                     height: auto;
                     margin-bottom: 0.5rem;
-                    //position: relative;
+                    position: relative;
+                    top: -5.8rem;
                 }
             }
 
             .hero__description {
                 display: flex;
                 flex-direction: column;
+                position: relative;
+                top: -86px;
 
                 .title__h1 {
                     font-family: 'Raleway', sans-serif;
@@ -71,7 +74,7 @@
                 }
                 .hero__description {
                     position: relative;
-                    top: -69px;
+                    top: -154px;
 
                     .title__h1 {
                         padding-left: 2.5rem;
@@ -95,13 +98,14 @@
 
             .hero__content {
                 .hero__image {
+                    margin-bottom: -9.5rem;
                     .hero__imageSrc {
                         width: 70%;
                         margin-bottom: 0px;
                     }
                 }
                 .hero__description {
-                    top: 26px;
+                    top: 100px;
 
                     .title__h1 {
                         font-size: 24px;

@@ -1,6 +1,11 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: var(--darkBlueEmail);
+  z-index: 100;
+}
 .header .wrapper .header__content {
   display: flex;
-  background-color: var(--darkBlueEmail);
 }
 .header .wrapper .header__content .header__logo {
   padding-top: 1.5rem;
@@ -51,7 +56,7 @@
   background-position: left;
   background-size: contain;
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 14rem;
 }
 .hero .wrapper .hero__content {
   display: flex;
@@ -65,10 +70,14 @@
   width: 80%;
   height: auto;
   margin-bottom: 0.5rem;
+  position: relative;
+  top: -5.8rem;
 }
 .hero .wrapper .hero__content .hero__description {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: -86px;
 }
 .hero .wrapper .hero__content .hero__description .title__h1 {
   font-family: "Raleway", sans-serif;
@@ -106,7 +115,7 @@
   }
   .hero .wrapper .hero__content .hero__description {
     position: relative;
-    top: -69px;
+    top: -154px;
   }
   .hero .wrapper .hero__content .hero__description .title__h1 {
     padding-left: 2.5rem;
@@ -123,12 +132,15 @@
   .hero .wrapper {
     background-position: bottom;
   }
+  .hero .wrapper .hero__content .hero__image {
+    margin-bottom: -9.5rem;
+  }
   .hero .wrapper .hero__content .hero__image .hero__imageSrc {
     width: 70%;
     margin-bottom: 0px;
   }
   .hero .wrapper .hero__content .hero__description {
-    top: 26px;
+    top: 100px;
   }
   .hero .wrapper .hero__content .hero__description .title__h1 {
     font-size: 24px;
@@ -487,7 +499,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   body {
-    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 17%, var(--darkBlueMain) 17%, var(--darkBlueMain) 100%);
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 16%, var(--darkBlueMain) 16%, var(--darkBlueMain) 100%);
   }
 }
 
