@@ -80,6 +80,7 @@
 }
 @media screen and (min-width: 768px) {
     .why {
+        margin-top: 17rem;
         .wrapper {
             .why__grid {
                 .why__item {
@@ -108,4 +109,24 @@
             }
         }
     }
+}
+@media screen and (min-width: 1024px) {
+    .why {
+        margin-top: 8rem;
+        .wrapper {
+            .why__group {
+                display: flex;
+                justify-content: space-between;
+
+                .why__item {
+                    img {
+                        height: 78px;
+                    }
+                    .why__copy {
+                        padding: 0 5rem 0 5rem;
+                    }
+                }
+            }
+            }
+        }
 }
