@@ -124,3 +124,63 @@
         }
     }
 }
+@media screen and (min-width: 1024px) {
+    .hero {
+        .wrapper {
+            background: url(../img/bg-curvy-desktop.svg) no-repeat;
+            background-position: bottom;
+            background-size: contain;
+            // width: 100%;
+            // padding-top: 14rem;
+
+            .hero__content {
+                .hero__image {
+                    margin-bottom: 70px;
+                    .hero__imageSrc {
+                        width: 50%;
+                        //top: -25rem;
+                        //margin-bottom: 0px;
+                    }
+                }
+                .hero__description {
+                    // display: flex;
+                    // flex-direction: column;
+                    // position: relative;
+                    top: -130px;
+    
+                    .title__h1 {
+                        // font-family: 'Raleway', sans-serif;
+                        // font-weight: 700;
+                        font-size: 28px;
+                        // line-height: 1.6;
+                        // color: var(--white);
+                        // text-align: center;
+                        // padding-left: 2rem;
+                        // padding-right: 2rem;
+                    }
+                    .copy {
+                        // font-family: 'Open Sans', sans-serif;
+                        // font-weight: 400;
+                        font-size: 16px;
+                        padding-left: 12.5rem;
+                        padding-right: 12.5rem;
+                        // line-height: 1.6;
+                        // color: var(--white);
+                        // text-align: center;
+                        // margin: 0 2.5rem 0 2.5rem;
+                    }
+                    .button {
+                        // background: radial-gradient(var(--cyan), var(--blue));
+                        // color: var(--white);
+                        // font-size: 14px;
+                        // font-weight: 700;
+                        // padding: 0.8rem 1rem;
+                        // border-radius: 1.3rem;
+                        // border-color: transparent;
+                        margin: 1.8rem 25rem 0 25rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -33,3 +33,8 @@ body {
         background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 16%,var(--darkBlueMain) 16%,var(--darkBlueMain) 100%);
     }
 }
+@media screen and (min-width: 1024px) {
+    body {
+        background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 19%,var(--darkBlueMain) 19%,var(--darkBlueMain) 100%);
+    }
+}

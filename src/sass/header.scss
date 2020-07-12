@@ -7,6 +7,7 @@
     .wrapper {
         .header__content {
             display: flex;
+            justify-content: space-between;
 
             .header__logo {
                 padding-top: 1.5rem;
@@ -19,7 +20,7 @@
                 justify-content: flex-end;
                 list-style: none;
                 color: var(--white);
-                margin-left: 6px;
+                margin-right: 1rem;
 
                 .menu__item {
                     margin: 0.9rem;
@@ -34,17 +35,17 @@
         }
     }
 }
-@media screen and (min-width: 425px) {
-    .header {
-        .wrapper {
-            .header__content {
-                .menu {
-                    margin-left: 3.5rem;
-                }
-            }
-        }
-    }
-}
+// @media screen and (min-width: 425px) {
+//     .header {
+//         .wrapper {
+//             .header__content {
+//                 .menu {
+//                     margin-left: 3.5rem;
+//                 }
+//             }
+//         }
+//     }
+// }
 @media screen and (min-width: 768px) {
     .header {
         .wrapper {
@@ -55,14 +56,26 @@
                     height: 30px;
                 }
                 .menu {
-                    margin-left: 18.5rem;
+                    margin-right: 3.5rem;
 
-                    .menu__item {
-                        margin: 0.9rem;
-                    }
-                    .menu__item a {
-                        font-size: 16px;
-                    }
+                    // .menu__item {
+                    //     //margin: 0.9rem;
+                    // }
+                    // .menu__item a {
+                    //     //font-size: 16px;
+                    // }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .header {
+        .wrapper {
+            .header__content {
+                .header__logo {
+                    width: 100px;
+                    height: 40px;
                 }
             }
         }

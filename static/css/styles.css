@@ -6,6 +6,7 @@
 }
 .header .wrapper .header__content {
   display: flex;
+  justify-content: space-between;
 }
 .header .wrapper .header__content .header__logo {
   padding-top: 1.5rem;
@@ -18,7 +19,7 @@
   justify-content: flex-end;
   list-style: none;
   color: var(--white);
-  margin-left: 6px;
+  margin-right: 1rem;
 }
 .header .wrapper .header__content .menu .menu__item {
   margin: 0.9rem;
@@ -30,11 +31,6 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 425px) {
-  .header .wrapper .header__content .menu {
-    margin-left: 3.5rem;
-  }
-}
 @media screen and (min-width: 768px) {
   .header .wrapper .header__content .header__logo {
     padding-left: 3.5rem;
@@ -42,13 +38,13 @@
     height: 30px;
   }
   .header .wrapper .header__content .menu {
-    margin-left: 18.5rem;
+    margin-right: 3.5rem;
   }
-  .header .wrapper .header__content .menu .menu__item {
-    margin: 0.9rem;
-  }
-  .header .wrapper .header__content .menu .menu__item a {
-    font-size: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .header .wrapper .header__content .header__logo {
+    width: 100px;
+    height: 40px;
   }
 }
 .hero .wrapper {
@@ -153,6 +149,33 @@
   }
   .hero .wrapper .hero__content .hero__description .button {
     margin: 1.8rem 16rem 0 16rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero .wrapper {
+    background: url(../img/bg-curvy-desktop.svg) no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .hero .wrapper .hero__content .hero__image {
+    margin-bottom: 70px;
+  }
+  .hero .wrapper .hero__content .hero__image .hero__imageSrc {
+    width: 50%;
+  }
+  .hero .wrapper .hero__content .hero__description {
+    top: -130px;
+  }
+  .hero .wrapper .hero__content .hero__description .title__h1 {
+    font-size: 28px;
+  }
+  .hero .wrapper .hero__content .hero__description .copy {
+    font-size: 16px;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+  }
+  .hero .wrapper .hero__content .hero__description .button {
+    margin: 1.8rem 25rem 0 25rem;
   }
 }
 .why {
@@ -500,6 +523,11 @@ body {
 @media screen and (min-width: 768px) {
   body {
     background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 16%, var(--darkBlueMain) 16%, var(--darkBlueMain) 100%);
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 19%, var(--darkBlueMain) 19%, var(--darkBlueMain) 100%);
   }
 }
 
