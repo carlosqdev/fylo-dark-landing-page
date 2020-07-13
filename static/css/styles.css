@@ -372,6 +372,17 @@
     padding-right: 10rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  .info .wrapper {
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .info .wrapper .card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 .sign__up {
   position: relative;
   top: 175px;
