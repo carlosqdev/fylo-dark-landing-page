@@ -117,7 +117,6 @@
             .why__group {
                 display: flex;
                 justify-content: space-between;
-
                 .why__item {
                     img {
                         height: 78px;
@@ -127,6 +126,30 @@
                     }
                 }
             }
+            .why__content {
+                display: flex;
+                .why__image {
+                    padding-left: 5rem;
+                    .why__imageSrc {
+                        width: 25rem;
+                        margin-top: 0px;
+                    }
+                }
+                .why__description {
+                    padding-right: 5rem;
+                    .why__title__h1 {
+                        font-size: 30px;
+                        margin-top: 2rem;
+                        padding: 0 3rem 0 2.5rem;
+                    }
+                    .why__copy {
+                        padding: 0 1rem 0 2.5rem;
+                    }
+                    .why__footer {
+                        padding: 0 1rem 0 2.5rem;
+                    }
+                }
             }
         }
+    }
 }

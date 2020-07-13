@@ -280,6 +280,30 @@
   .why .wrapper .why__group .why__item .why__copy {
     padding: 0 5rem 0 5rem;
   }
+  .why .wrapper .why__content {
+    display: flex;
+  }
+  .why .wrapper .why__content .why__image {
+    padding-left: 5rem;
+  }
+  .why .wrapper .why__content .why__image .why__imageSrc {
+    width: 25rem;
+    margin-top: 0px;
+  }
+  .why .wrapper .why__content .why__description {
+    padding-right: 5rem;
+  }
+  .why .wrapper .why__content .why__description .why__title__h1 {
+    font-size: 30px;
+    margin-top: 2rem;
+    padding: 0 3rem 0 2.5rem;
+  }
+  .why .wrapper .why__content .why__description .why__copy {
+    padding: 0 1rem 0 2.5rem;
+  }
+  .why .wrapper .why__content .why__description .why__footer {
+    padding: 0 1rem 0 2.5rem;
+  }
 }
 .info {
   margin-top: 9.5rem;
