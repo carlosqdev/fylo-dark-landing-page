@@ -1,17 +1,19 @@
 .info {
     margin-top: 9.5rem;
 
+    .card__image_quotes {
+        width: 8%;
+        height: auto;
+        padding-left: 3rem;
+        margin-left: 0.5rem;
+    }
+
     .wrapper {
         .card {
             padding-left: 3rem;
             padding-right: 3rem;
             margin-bottom: 1.5rem;
 
-            .card__image_quotes {
-                width: 8%;
-                height: auto;
-                margin-left: 0.5rem;
-            }
             .card__item {
                 border-radius: 3%;
                 margin-top: -5px;
@@ -74,6 +76,10 @@
 }
 @media screen and (min-width: 768px) {
     .info {
+        .card__image_quotes {
+            width: 4%;
+            padding-left: 10rem;
+        }
         .wrapper {
             .card {
                 padding-left: 10rem;
@@ -84,6 +90,12 @@
 }
 @media screen and (min-width: 1024px) {
     .info {
+        .card__image_quotes {
+            width: 4%;
+            padding-left: 3rem;
+            position: relative;
+            top: 5px;
+        }
         .wrapper {
             display: flex;
             padding-left: 3rem;
@@ -91,6 +103,20 @@
             .card {
                 padding-left: 1rem;
                 padding-right: 1rem;
+                .card__item {
+                    .card__body {
+                        .card__copy{
+                            font-size: 11px;
+                        }
+                    }
+                    .card__footer {
+                        .card__info{
+                            .card__position {
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

@@ -308,15 +308,16 @@
 .info {
   margin-top: 9.5rem;
 }
+.info .card__image_quotes {
+  width: 8%;
+  height: auto;
+  padding-left: 3rem;
+  margin-left: 0.5rem;
+}
 .info .wrapper .card {
   padding-left: 3rem;
   padding-right: 3rem;
   margin-bottom: 1.5rem;
-}
-.info .wrapper .card .card__image_quotes {
-  width: 8%;
-  height: auto;
-  margin-left: 0.5rem;
 }
 .info .wrapper .card .card__item {
   border-radius: 3%;
@@ -367,12 +368,22 @@
 }
 
 @media screen and (min-width: 768px) {
+  .info .card__image_quotes {
+    width: 4%;
+    padding-left: 10rem;
+  }
   .info .wrapper .card {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
 @media screen and (min-width: 1024px) {
+  .info .card__image_quotes {
+    width: 4%;
+    padding-left: 3rem;
+    position: relative;
+    top: 5px;
+  }
   .info .wrapper {
     display: flex;
     padding-left: 3rem;
@@ -381,6 +392,12 @@
   .info .wrapper .card {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .info .wrapper .card .card__item .card__body .card__copy {
+    font-size: 11px;
+  }
+  .info .wrapper .card .card__item .card__footer .card__info .card__position {
+    font-size: 9px;
   }
 }
 .sign__up {
