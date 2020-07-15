@@ -602,6 +602,9 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .footer .wrapper {
+    margin-right: 1.5rem;
+  }
   .footer .wrapper .footer__logo {
     width: 15%;
     margin-top: 10rem;
@@ -612,19 +615,25 @@
   }
   .footer .wrapper .footer__container .footer__direction {
     margin-top: 1px;
+    padding-right: 1rem;
+  }
+  .footer .wrapper .footer__container .footer__direction #img__direction {
+    margin-top: 0.2rem;
   }
   .footer .wrapper .footer__container .footer__direction .copy__direction {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.4;
   }
   .footer .wrapper .footer__container .footer__contact {
     margin-top: 1px;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .footer .wrapper .footer__container .footer__contact .item__phone .copy__phone {
-    font-size: 13px;
+    font-size: 12px;
   }
   .footer .wrapper .footer__container .footer__contact .item__email .copy__email {
-    font-size: 13px;
+    font-size: 12px;
   }
   .footer .wrapper .footer__container .footer__links {
     display: flex;
@@ -632,14 +641,21 @@
   }
   .footer .wrapper .footer__container .footer__links .footer__links__container {
     margin-top: 0px;
+    margin-bottom: 4rem;
   }
   .footer .wrapper .footer__container .footer__links .footer__links__container .footer__link {
-    font-size: 13px;
-    margin-left: 2rem;
+    font-size: 12px;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .footer .wrapper .footer__container .footer__social {
     margin-top: 1px;
     margin-left: 2rem;
+  }
+  .footer .wrapper .footer__container .footer__social .circle {
+    height: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 :root {
@@ -671,7 +687,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   body {
-    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 26%, var(--darkBlueMain) 26%, var(--darkBlueMain) 100%);
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 32%, var(--darkBlueMain) 32%, var(--darkBlueMain) 100%);
   }
 }
 

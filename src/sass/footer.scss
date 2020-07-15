@@ -1,5 +1,5 @@
 .footer {
-	background-color: var(--darkBlueFooter);
+  background-color: var(--darkBlueFooter);
 
   .wrapper {
     margin-left: 2rem;
@@ -19,7 +19,7 @@
         height: 1.1rem;
         margin-top: 0.6rem;
         margin-right: 1.3rem;
-			}
+      }
 
       .copy__direction {
         font-family: "Open Sans", sans-serif;
@@ -41,7 +41,7 @@
           width: 0.9rem;
           height: 0.9rem;
           margin-right: 1.3rem;
-				}
+        }
 
         .copy__phone {
           font-family: "Open Sans", sans-serif;
@@ -60,7 +60,7 @@
           width: 1.1rem;
           height: 1.1rem;
           margin-right: 1.3rem;
-				}
+        }
 
         .copy__email {
           font-family: "Open Sans", sans-serif;
@@ -70,7 +70,7 @@
           margin-top: 0px;
         }
       }
-		}
+    }
 
     .footer__links {
       margin-top: 4rem;
@@ -90,7 +90,7 @@
           margin-bottom: 0.6rem;
         }
       }
-		}
+    }
 
     .footer__social {
       display: flex;
@@ -129,36 +129,44 @@
 @media screen and (min-width: 1024px) {
   .footer {
     .wrapper {
+      margin-right: 1.5rem;
       .footer__logo {
         width: 15%;
         margin-top: 10rem;
-			}
+      }
 
       .footer__container {
         margin-top: 1rem;
         display: flex;
 
         .footer__direction {
-					margin-top: 1px;
+          margin-top: 1px;
+          padding-right: 1rem;
+
+          #img__direction {
+            margin-top: 0.2rem;
+          }
 
           .copy__direction {
-            font-size: 13px;
+            font-size: 12px;
+            line-height: 1.4;
           }
         }
 
         .footer__contact {
-					margin-top: 1px;
-					margin-left: 2rem;
+          margin-top: 1px;
+          margin-left: 1.5rem;
+          margin-right: 1.5rem;
 
           .item__phone {
             .copy__phone {
-              font-size: 13px;
+              font-size: 12px;
             }
-					}
+          }
 
           .item__email {
             .copy__email {
-              font-size: 13px;
+              font-size: 12px;
             }
           }
         }
@@ -169,18 +177,26 @@
 
           .footer__links__container {
             margin-top: 0px;
+            margin-bottom: 4rem;
 
             .footer__link {
-              font-size: 13px;
-              margin-left: 2rem;
+              font-size: 12px;
+              margin-left: 3rem;
+              margin-right: 3rem;
             }
           }
-				}
+        }
 
-				.footer__social {
-					margin-top: 1px;
-					margin-left: 2rem;
-				}
+        .footer__social {
+          margin-top: 1px;
+          margin-left: 2rem;
+
+          .circle {
+            height: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+          }
+        }
       }
     }
   }

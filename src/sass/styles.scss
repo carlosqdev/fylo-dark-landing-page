@@ -1,40 +1,65 @@
-@import './header.scss';
-@import './hero.scss';
-@import './why.scss';
-@import './info.scss';
-@import './signup.scss';
-@import './footer.scss';
+@import "./header.scss";
+@import "./hero.scss";
+@import "./why.scss";
+@import "./info.scss";
+@import "./signup.scss";
+@import "./footer.scss";
 
 :root {
-    // Color Primary
-    --darkBlueEmail: hsl(217, 28%, 15%); //(intro and email sign up background)
-    --darkBlueMain: hsl(218, 28%, 13%); //(main background)
-    --darkBlueFooter: hsl(216, 53%, 9%); //(footer background)
-    --darkBlueTestimonials: hsl(219, 30%, 18%); //(testimonials background)
-    //Color Accent
-    --cyan: hsl(176, 68%, 64%); //(inside call-to-action gradient)
-    --blue: hsl(198, 60%, 50%); //(inside call-to-action gradient)
-    //Color Neutral
-    --white: hsl(0, 0%, 100%);
+  // Color Primary
+  --darkBlueEmail: hsl(217, 28%, 15%); //(intro and email sign up background)
+  --darkBlueMain: hsl(218, 28%, 13%); //(main background)
+  --darkBlueFooter: hsl(216, 53%, 9%); //(footer background)
+  --darkBlueTestimonials: hsl(219, 30%, 18%); //(testimonials background)
+  //Color Accent
+  --cyan: hsl(176, 68%, 64%); //(inside call-to-action gradient)
+  --blue: hsl(198, 60%, 50%); //(inside call-to-action gradient)
+  //Color Neutral
+  --white: hsl(0, 0%, 100%);
 }
+
 body {
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 9.7%,var(--darkBlueMain) 9%,var(--darkBlueMain) 100%);
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--darkBlueEmail) 0%,
+    var(--darkBlueEmail) 9.7%,
+    var(--darkBlueMain) 9%,
+    var(--darkBlueMain) 100%
+  );
+  overflow-x: hidden;
 }
 @media screen and (min-width: 425px) {
-    body {
-        background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 10.7%,var(--darkBlueMain) 9%,var(--darkBlueMain) 100%);
-    }
+  body {
+    background: linear-gradient(
+      to bottom,
+      var(--darkBlueEmail) 0%,
+      var(--darkBlueEmail) 10.7%,
+      var(--darkBlueMain) 9%,
+      var(--darkBlueMain) 100%
+    );
+  }
 }
 @media screen and (min-width: 768px) {
-    body {
-        background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 16%,var(--darkBlueMain) 16%,var(--darkBlueMain) 100%);
-    }
+  body {
+    background: linear-gradient(
+      to bottom,
+      var(--darkBlueEmail) 0%,
+      var(--darkBlueEmail) 16%,
+      var(--darkBlueMain) 16%,
+      var(--darkBlueMain) 100%
+    );
+  }
 }
 @media screen and (min-width: 1024px) {
-    body {
-        background: linear-gradient(to bottom, var(--darkBlueEmail) 0%,var(--darkBlueEmail) 26%,var(--darkBlueMain) 26%,var(--darkBlueMain) 100%);
-    }
+  body {
+    background: linear-gradient(
+      to bottom,
+      var(--darkBlueEmail) 0%,
+      var(--darkBlueEmail) 32%,
+      var(--darkBlueMain) 32%,
+      var(--darkBlueMain) 100%
+    );
+  }
 }

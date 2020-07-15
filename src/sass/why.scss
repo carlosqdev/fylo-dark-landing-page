@@ -1,155 +1,169 @@
 .why {
+  margin-top: 8rem;
+
+  .wrapper {
+    .why__grid {
+      .why__item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 4rem;
+
+        .why__title__h1 {
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-size: 20px;
+          color: var(--white);
+          margin-top: 1.5rem;
+          margin-bottom: 0;
+        }
+
+        .why__copy {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 1.6;
+          color: var(--white);
+          padding: 0 2rem 0 2rem;
+        }
+      }
+    }
+
+    .why__content {
+      .why__image {
+        display: flex;
+        justify-content: center;
+
+        .why__imageSrc {
+          margin-top: 5rem;
+          width: 80%;
+          height: auto;
+        }
+      }
+
+      .why__description {
+        .why__title__h1 {
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-size: 19px;
+          color: var(--white);
+          margin-top: 3rem;
+          margin-bottom: 0;
+          padding: 0 1.5rem 0 1.5rem;
+        }
+
+        .why__copy {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.5;
+          color: var(--white);
+          padding: 0 1.5rem 0 1.5rem;
+        }
+
+        .why__footer {
+          padding: 0 1.5rem 0 1.5rem;
+          display: flex;
+          align-items: stretch;
+
+          a {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 1.5;
+            color: var(--cyan);
+          }
+
+          img {
+            margin-left: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .why {
+    margin-top: 17rem;
+    .wrapper {
+      .why__grid {
+        .why__item {
+          .why__copy {
+            padding: 0 14.5rem 0 14.5rem;
+          }
+        }
+      }
+      .why__content {
+        .why__image {
+          .why__imageSrc {
+            width: 60%;
+          }
+        }
+        .why__description {
+          .why__title__h1 {
+            padding: 0 3.5rem 0 3.5rem;
+          }
+          .why__copy {
+            padding: 0 3.5rem 0 3.5rem;
+          }
+          .why__footer {
+            padding: 0 3.5rem 0 3.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .why {
     margin-top: 8rem;
 
     .wrapper {
-        .why__grid {
-            .why__item {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                align-items: center;
-                margin-bottom: 4rem;
+      .why__group {
+        display: flex;
+        justify-content: space-between;
 
-                .why__title__h1 {
-                    font-family: "Raleway", sans-serif;
-                    font-weight: 700;
-                    font-size: 20px;
-                    color: var(--white);
-                    margin-top: 1.5rem;
-                    margin-bottom: 0;
-                }
-                .why__copy {
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: 400;
-                    font-size: 13px;
-                    line-height: 1.6;
-                    color: var(--white);
-                    padding: 0 2rem 0 2rem;
-                }
-            }
-        }
-        .why__content {
-            .why__image {
-                display: flex;
-                justify-content: center;
+        .why__item {
+          img {
+            height: 78px;
+          }
 
-                .why__imageSrc {
-                    margin-top: 5rem;
-                    width: 80%;
-                    height: auto;
-                }
-            }
-            .why__description {
-                .why__title__h1 {
-                    font-family: "Raleway", sans-serif;
-                    font-weight: 700;
-                    font-size: 19px;
-                    color: var(--white);
-                    margin-top: 3rem;
-                    margin-bottom: 0;
-                    padding: 0 1.5rem 0 1.5rem;
-                }
-                .why__copy {
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 1.5;
-                    color: var(--white);
-                    padding: 0 1.5rem 0 1.5rem;
-                }
-                .why__footer {
-                    padding: 0 1.5rem 0 1.5rem;
-                    display: flex;
-                    align-items: stretch;
+          .why__copy {
+            padding: 0 5rem 0 5rem;
+          }
+        }
+      }
 
-                    a {
-                        font-family: 'Open Sans', sans-serif;
-                        font-weight: 400;
-                        font-size: 13px;
-                        line-height: 1.5;
-                        color: var(--cyan);
-                        //text-decoration: none;
-                    }
-                    img {
-                        margin-left: 0.3rem;
-                    }
-                }
-            }
+      .why__content {
+        display: flex;
+
+        .why__image {
+          padding-left: 5rem;
+
+          .why__imageSrc {
+            width: 25rem;
+            margin-top: 0px;
+          }
         }
-    }
-}
-@media screen and (min-width: 768px) {
-    .why {
-        margin-top: 17rem;
-        .wrapper {
-            .why__grid {
-                .why__item {
-                    .why__copy {
-                        padding: 0 14.5rem 0 14.5rem;
-                    }
-                }
-            }
-            .why__content {
-                .why__image {
-                    .why__imageSrc {
-                        width: 60%;
-                    }
-                }
-                .why__description {
-                    .why__title__h1 {
-                        padding: 0 3.5rem 0 3.5rem;
-                    }
-                    .why__copy {
-                        padding: 0 3.5rem 0 3.5rem;
-                    }
-                    .why__footer {
-                        padding: 0 3.5rem 0 3.5rem;
-                    }
-                }
-            }
+        .why__description {
+          padding-right: 5rem;
+
+          .why__title__h1 {
+            font-size: 30px;
+            margin-top: 2rem;
+            padding: 0 3rem 0 2.5rem;
+          }
+
+          .why__copy {
+            padding: 0 1rem 0 2.5rem;
+          }
+
+          .why__footer {
+            padding: 0 1rem 0 2.5rem;
+          }
         }
+      }
     }
-}
-@media screen and (min-width: 1024px) {
-    .why {
-        margin-top: 8rem;
-        .wrapper {
-            .why__group {
-                display: flex;
-                justify-content: space-between;
-                .why__item {
-                    img {
-                        height: 78px;
-                    }
-                    .why__copy {
-                        padding: 0 5rem 0 5rem;
-                    }
-                }
-            }
-            .why__content {
-                display: flex;
-                .why__image {
-                    padding-left: 5rem;
-                    .why__imageSrc {
-                        width: 25rem;
-                        margin-top: 0px;
-                    }
-                }
-                .why__description {
-                    padding-right: 5rem;
-                    .why__title__h1 {
-                        font-size: 30px;
-                        margin-top: 2rem;
-                        padding: 0 3rem 0 2.5rem;
-                    }
-                    .why__copy {
-                        padding: 0 1rem 0 2.5rem;
-                    }
-                    .why__footer {
-                        padding: 0 1rem 0 2.5rem;
-                    }
-                }
-            }
-        }
-    }
+  }
 }

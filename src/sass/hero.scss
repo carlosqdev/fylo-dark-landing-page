@@ -1,186 +1,171 @@
 .hero {
-    .wrapper {
-        background: url(../img/bg-curvy-mobile.svg) no-repeat;
-        background-position: left;
-        background-size: contain;
-        width: 100%;
-        padding-top: 14rem;
+  .wrapper {
+    background: url(../img/bg-curvy-mobile.svg) no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 100%;
+    padding-top: 14rem;
 
-        .hero__content {
-            display: flex;
-            flex-direction: column;
+    .hero__content {
+      display: flex;
+      flex-direction: column;
 
-            .hero__image {
-                display: flex;
-                justify-content: center;
+      .hero__image {
+        display: flex;
+        justify-content: center;
 
-                .hero__imageSrc {
-                    width: 80%;
-                    height: auto;
-                    margin-bottom: 0.5rem;
-                    position: relative;
-                    top: -5.8rem;
-                }
-            }
-
-            .hero__description {
-                display: flex;
-                flex-direction: column;
-                position: relative;
-                top: -86px;
-
-                .title__h1 {
-                    font-family: 'Raleway', sans-serif;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 1.6;
-                    color: var(--white);
-                    text-align: center;
-                    padding-left: 2rem;
-                    padding-right: 2rem;
-                }
-                .copy {
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 1.6;
-                    color: var(--white);
-                    text-align: center;
-                    margin: 0 2.5rem 0 2.5rem;
-                }
-                .button {
-                    background: radial-gradient(var(--cyan), var(--blue));
-                    color: var(--white);
-                    font-size: 14px;
-                    font-weight: 700;
-                    padding: 0.8rem 1rem;
-                    border-radius: 1.3rem;
-                    border-color: transparent;
-                    margin: 1.8rem 4.7rem 0 4.7rem;
-                }
-            }
+        .hero__imageSrc {
+          width: 80%;
+          height: auto;
+          margin-bottom: 0.5rem;
+          position: relative;
+          top: -5.8rem;
         }
+      }
+
+      .hero__description {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -86px;
+
+        .title__h1 {
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 1.6;
+          color: var(--white);
+          text-align: center;
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+
+        .copy {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.6;
+          color: var(--white);
+          text-align: center;
+          margin: 0 2.5rem 0 2.5rem;
+        }
+
+        .button {
+          background: radial-gradient(var(--cyan), var(--blue));
+          color: var(--white);
+          font-size: 14px;
+          font-weight: 700;
+          padding: 0.8rem 1rem;
+          border-radius: 1.3rem;
+          border-color: transparent;
+          margin: 1.8rem 4.7rem 0 4.7rem;
+        }
+      }
     }
+  }
 }
 @media screen and (min-width: 425px) {
-    .hero {
-        .wrapper {
-            .hero__content {
-                .hero__image {
-
-                    .hero__imageSrc {
-                        margin-bottom: 5rem;
-                    }
-                }
-                .hero__description {
-                    position: relative;
-                    top: -154px;
-
-                    .title__h1 {
-                        padding-left: 2.5rem;
-                        padding-right: 2.5rem;
-                    }
-                    .copy {
-                            margin: 0 4rem 0 4rem;
-                    }
-                    .button {
-                        margin: 1.8rem 5.7rem 0 5.7rem;
-                    }
-                }
-            }
+  .hero {
+    .wrapper {
+      .hero__content {
+        .hero__image {
+          .hero__imageSrc {
+            margin-bottom: 5rem;
+          }
         }
+
+        .hero__description {
+          position: relative;
+          top: -154px;
+
+          .title__h1 {
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+          }
+
+          .copy {
+            margin: 0 4rem 0 4rem;
+          }
+
+          .button {
+            margin: 1.8rem 5.7rem 0 5.7rem;
+          }
+        }
+      }
     }
+  }
 }
 @media screen and (min-width: 768px) {
-    .hero {
-        .wrapper {
-            background-position: bottom;
+  .hero {
+    .wrapper {
+      background-position: bottom;
 
-            .hero__content {
-                .hero__image {
-                    margin-bottom: -9.5rem;
-                    .hero__imageSrc {
-                        width: 70%;
-                        margin-bottom: 0px;
-                    }
-                }
-                .hero__description {
-                    top: 100px;
+      .hero__content {
+        .hero__image {
+          margin-bottom: -9.5rem;
 
-                    .title__h1 {
-                        font-size: 24px;
-                        padding-left: 14rem;
-                        padding-right: 14rem;
-                    }
-                    .copy {
-                        padding-left: 8rem;
-                        padding-right: 8rem;
-                    }
-                    .button {
-                        margin: 1.8rem 16rem 0 16rem;
-                    }
-                }
-            }
+          .hero__imageSrc {
+            width: 70%;
+            margin-bottom: 0px;
+          }
         }
+
+        .hero__description {
+          top: 100px;
+
+          .title__h1 {
+            font-size: 24px;
+            padding-left: 14rem;
+            padding-right: 14rem;
+          }
+
+          .copy {
+            padding-left: 8rem;
+            padding-right: 8rem;
+          }
+
+          .button {
+            margin: 1.8rem 16rem 0 16rem;
+          }
+        }
+      }
     }
+  }
 }
 @media screen and (min-width: 1024px) {
-    .hero {
-        .wrapper {
-            background: url(../img/bg-curvy-desktop.svg) no-repeat;
-            background-position: bottom;
-            background-size: contain;
-            // width: 100%;
-            // padding-top: 14rem;
+  .hero {
+    .wrapper {
+      background: url(../img/bg-curvy-desktop.svg) no-repeat;
+      background-position: bottom;
+      background-size: contain;
 
-            .hero__content {
-                .hero__image {
-                    margin-bottom: 70px;
-                    .hero__imageSrc {
-                        width: 50%;
-                        //top: -25rem;
-                        //margin-bottom: 0px;
-                    }
-                }
-                .hero__description {
-                    // display: flex;
-                    // flex-direction: column;
-                    // position: relative;
-                    top: -130px;
-    
-                    .title__h1 {
-                        // font-family: 'Raleway', sans-serif;
-                        // font-weight: 700;
-                        font-size: 28px;
-                        // line-height: 1.6;
-                        // color: var(--white);
-                        // text-align: center;
-                        // padding-left: 2rem;
-                        // padding-right: 2rem;
-                    }
-                    .copy {
-                        // font-family: 'Open Sans', sans-serif;
-                        // font-weight: 400;
-                        font-size: 16px;
-                        padding-left: 12.5rem;
-                        padding-right: 12.5rem;
-                        // line-height: 1.6;
-                        // color: var(--white);
-                        // text-align: center;
-                        // margin: 0 2.5rem 0 2.5rem;
-                    }
-                    .button {
-                        // background: radial-gradient(var(--cyan), var(--blue));
-                        // color: var(--white);
-                        // font-size: 14px;
-                        // font-weight: 700;
-                        // padding: 0.8rem 1rem;
-                        // border-radius: 1.3rem;
-                        // border-color: transparent;
-                        margin: 1.8rem 25rem 0 25rem;
-                    }
-                }
-            }
+      .hero__content {
+        .hero__image {
+          margin-bottom: 70px;
+
+          .hero__imageSrc {
+            width: 50%;
+          }
         }
+
+        .hero__description {
+          top: -130px;
+
+          .title__h1 {
+            font-size: 28px;
+          }
+
+          .copy {
+            font-size: 16px;
+            padding-left: 12.5rem;
+            padding-right: 12.5rem;
+          }
+
+          .button {
+            margin: 1.8rem 25rem 0 25rem;
+          }
+        }
+      }
     }
+  }
 }

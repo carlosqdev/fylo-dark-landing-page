@@ -1,83 +1,67 @@
 .header {
-    width: 100%;
-    position: fixed;
-    background-color: var(--darkBlueEmail);
-    z-index: 100;
+  width: 100%;
+  position: fixed;
+  background-color: var(--darkBlueEmail);
+  z-index: 100;
 
-    .wrapper {
-        .header__content {
-            display: flex;
-            justify-content: space-between;
+  .wrapper {
+    .header__content {
+      display: flex;
+      justify-content: space-between;
 
-            .header__logo {
-                padding-top: 1.5rem;
-                padding-left: 1rem;
-                width: 75px;
-                height: 25px;
-            }
-            .menu {
-                display: flex;
-                justify-content: flex-end;
-                list-style: none;
-                color: var(--white);
-                margin-right: 1rem;
+      .header__logo {
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        width: 75px;
+        height: 25px;
+      }
 
-                .menu__item {
-                    margin: 0.9rem;
-                }
-                .menu__item a {
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 14px;
-                    color: var(--white);
-                    text-decoration: none;
-                }
-            }
+      .menu {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        color: var(--white);
+        margin-right: 1rem;
+
+        .menu__item {
+          margin: 0.9rem;
         }
+
+        .menu__item a {
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          color: var(--white);
+          text-decoration: none;
+        }
+      }
     }
+  }
 }
-// @media screen and (min-width: 425px) {
-//     .header {
-//         .wrapper {
-//             .header__content {
-//                 .menu {
-//                     margin-left: 3.5rem;
-//                 }
-//             }
-//         }
-//     }
-// }
 @media screen and (min-width: 768px) {
-    .header {
-        .wrapper {
-            .header__content {
-                .header__logo {
-                    padding-left: 3.5rem;
-                    width: 90px;
-                    height: 30px;
-                }
-                .menu {
-                    margin-right: 3.5rem;
-
-                    // .menu__item {
-                    //     //margin: 0.9rem;
-                    // }
-                    // .menu__item a {
-                    //     //font-size: 16px;
-                    // }
-                }
-            }
+  .header {
+    .wrapper {
+      .header__content {
+        .header__logo {
+          padding-left: 3.5rem;
+          width: 90px;
+          height: 30px;
         }
+        .menu {
+          margin-right: 3.5rem;
+        }
+      }
     }
+  }
 }
 @media screen and (min-width: 1024px) {
-    .header {
-        .wrapper {
-            .header__content {
-                .header__logo {
-                    width: 100px;
-                    height: 40px;
-                }
-            }
+  .header {
+    .wrapper {
+      .header__content {
+        .header__logo {
+          width: 100px;
+          height: 40px;
         }
+      }
     }
+  }
 }

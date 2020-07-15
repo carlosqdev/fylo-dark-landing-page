@@ -1,94 +1,106 @@
 .sign__up {
-    position: relative;
-    top: 175px;
-    .wrapper {
-        border: 1px solid var(--darkBlueEmail);
-        border-radius: 3%;
-        background-color: var(--darkBlueMain);
-        padding-left: 1.3rem;
-        padding-right: 1.3rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        .sign__title__h1 {
-            font-family: "Raleway", sans-serif;
-            font-weight: 700;
-            font-size: 19px;
-            color: var(--white);
-            text-align: center;
-            margin-top: 2.3rem;
-        }
-        .sign__copy {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.6;
-            text-align: center;
-            color: var(--white);
-        }
-        .sign__container {
-            display: flex;
-            flex-direction: column;
-            .sign__email {
-                color: var(--darkBlueMain);
-                font-size: 10px;
-                font-weight: bold;
-                padding: 1rem 2.3rem;
-                border-radius: 1.3rem;
-                border-color: transparent;
-                margin-top: 1rem;
-                margin-bottom: 1.5rem;
-            }
-            .button {
-                background: radial-gradient(var(--cyan), var(--blue));
-                color: var(--white);
-                font-size: 14px;
-                font-weight: 700;
-                padding: 1rem 1rem;
-                border-radius: 1.3rem;
-                border-color: transparent;
-                margin-bottom: 2.3rem;
-            }
-        }
+  position: relative;
+  top: 175px;
+
+  .wrapper {
+    border: 1px solid var(--darkBlueEmail);
+    border-radius: 3%;
+    background-color: var(--darkBlueMain);
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+    .sign__title__h1 {
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 19px;
+      color: var(--white);
+      text-align: center;
+      margin-top: 2.3rem;
     }
+
+    .sign__copy {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: center;
+      color: var(--white);
+    }
+
+    .sign__container {
+      display: flex;
+      flex-direction: column;
+
+      .sign__email {
+        color: var(--darkBlueMain);
+        font-size: 10px;
+        font-weight: bold;
+        padding: 1rem 2.3rem;
+        border-radius: 1.3rem;
+        border-color: transparent;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .button {
+        background: radial-gradient(var(--cyan), var(--blue));
+        color: var(--white);
+        font-size: 14px;
+        font-weight: 700;
+        padding: 1rem 1rem;
+        border-radius: 1.3rem;
+        border-color: transparent;
+        margin-bottom: 2.3rem;
+      }
+    }
+  }
 }
 @media screen and (min-width: 768px) {
-    .sign__up {
-        .wrapper {
-            margin-left: 6rem;
-            margin-right: 6rem;
-        }
+  .sign__up {
+    .wrapper {
+      margin-left: 6rem;
+      margin-right: 6rem;
     }
+  }
 }
 @media screen and (min-width: 1024px) {
-    .sign__up {
-        top: 108px;
-        .wrapper {
-            padding-left: 3rem;
-            padding-right: 3rem;
-            margin-left: 12rem;
-            margin-right: 12rem;
-            .sign__title__h1 {
-                font-size: 21px;
-            }
-            .sign__copy {
-                font-size: 12px;
-            }
-            .sign__container {
-                flex-direction: row;
-                .sign__email {
-                    border-radius: 2rem;
-                    padding-left: 1rem;
-                    padding-right: 14rem;
-                    margin-bottom: 2rem;
-                }
-                .button {
-                    font-size: 10px;
-                    border-radius: 2rem;
-                    margin-left: 1rem;
-                    margin-top: 1rem;
-                    margin-bottom: 2rem;
-                }
-            }
+  .sign__up {
+    top: 108px;
+
+    .wrapper {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      margin-left: 12rem;
+      margin-right: 12rem;
+
+      .sign__title__h1 {
+        font-size: 21px;
+      }
+
+      .sign__copy {
+        font-size: 12px;
+      }
+
+      .sign__container {
+        flex-direction: row;
+
+        .sign__email {
+          border-radius: 2rem;
+          padding-left: 1rem;
+          padding-right: 14rem;
+          margin-bottom: 2rem;
         }
+
+        .button {
+          font-size: 10px;
+          border-radius: 2rem;
+          margin-left: 1rem;
+          margin-top: 1rem;
+          margin-bottom: 2rem;
+        }
+      }
     }
+  }
 }
