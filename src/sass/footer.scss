@@ -1,123 +1,187 @@
 .footer {
-    background-color: var(--darkBlueFooter);
+	background-color: var(--darkBlueFooter);
 
+  .wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    .footer__logo {
+      width: 55%;
+      height: auto;
+      margin-top: 15.6rem;
+    }
+
+    .footer__direction {
+      display: flex;
+
+      #img__direction {
+        width: 1rem;
+        height: 1.1rem;
+        margin-top: 0.6rem;
+        margin-right: 1.3rem;
+			}
+
+      .copy__direction {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.8;
+        color: var(--white);
+        margin-top: 0px;
+      }
+    }
+
+    .footer__contact {
+      margin-top: 3rem;
+
+      .item__phone {
+        display: flex;
+
+        #img__phone {
+          width: 0.9rem;
+          height: 0.9rem;
+          margin-right: 1.3rem;
+				}
+
+        .copy__phone {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: var(--white);
+          margin-top: 0px;
+        }
+      }
+
+      .item__email {
+        margin-top: 0.7rem;
+        display: flex;
+
+        #img__email {
+          width: 1.1rem;
+          height: 1.1rem;
+          margin-right: 1.3rem;
+				}
+
+        .copy__email {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: var(--white);
+          margin-top: 0px;
+        }
+      }
+		}
+
+    .footer__links {
+      margin-top: 4rem;
+
+      .footer__links__container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+
+        .footer__link {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.8;
+          color: var(--white);
+          text-decoration: none;
+          margin-bottom: 0.6rem;
+        }
+      }
+		}
+
+    .footer__social {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+      margin-bottom: 1.5rem;
+
+      .circle {
+        border: 1px solid var(--white);
+        border-radius: 50%;
+        padding-top: 0.4rem;
+        padding-bottom: 0.3rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+
+        .icon__social {
+          margin-left: 0.3rem;
+          margin-right: 0.3rem;
+
+          img {
+            width: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
     .wrapper {
-        margin-left: 2rem;
-        margin-right: 2rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    .wrapper {
+      .footer__logo {
+        width: 15%;
+        margin-top: 10rem;
+			}
 
-        .footer__logo {
-            width: 55%;
-            height: auto;
-            margin-top: 15.6rem;
+      .footer__container {
+        margin-top: 1rem;
+        display: flex;
+
+        .footer__direction {
+					margin-top: 1px;
+
+          .copy__direction {
+            font-size: 13px;
+          }
         }
 
         .footer__contact {
-            margin-top: 3rem;
+					margin-top: 1px;
+					margin-left: 2rem;
 
-            .item__direction {
-                display: flex;
-
-                #img__direction {
-                    width: 1rem;
-                    height: 1.1rem;
-                    margin-top: 0.6rem;
-                    margin-right: 1.3rem;
-                }
-                .copy__direction {
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 1.8;
-                    color: var(--white);
-                    margin-top: 0px;
-                }
+          .item__phone {
+            .copy__phone {
+              font-size: 13px;
             }
+					}
 
-            .item__phone {
-                display: flex;
-
-                #img__phone {
-                    width: 0.9rem;
-                    height: 0.9rem;
-                    margin-right: 1.3rem;
-                }
-                .copy__phone {
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: 400;
-                    font-size: 14px;
-                    color: var(--white);
-                    margin-top: 0px;
-                }
+          .item__email {
+            .copy__email {
+              font-size: 13px;
             }
-
-            .item__email {
-                margin-top: 0.7rem;
-                display: flex;
-
-                #img__email {
-                    width: 1.1rem;
-                    height: 1.1rem;
-                    margin-right: 1.3rem;
-                }
-                .copy__email {
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: 400;
-                    font-size: 14px;
-                    color: var(--white);
-                    margin-top: 0px;
-                }
-            }
+          }
         }
+
         .footer__links {
-            margin-top: 4rem;
+          display: flex;
+          margin-top: 1px;
 
-            .footer__links__container {
-                display: flex;
-                flex-direction: column;
-                margin-top: 2.5rem;
+          .footer__links__container {
+            margin-top: 0px;
 
-                .footer__link {
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 1.8;
-                    color: var(--white);
-                    text-decoration: none;
-                    margin-bottom: 0.6rem;
-                }
+            .footer__link {
+              font-size: 13px;
+              margin-left: 2rem;
             }
-        }
-        .footer__social {
-            display: flex;
-            justify-content: center;
-            margin-top: 4rem;
-            margin-bottom: 1.5rem;
+          }
+				}
 
-            .circle {
-                border: 1px solid var(--white);
-                border-radius: 50%;
-                padding-top: 0.4rem;
-                padding-bottom: 0.3rem;
-                margin-left: 0.3rem;
-                margin-right: 0.3rem;
-
-                .icon__social {
-                    margin-left: 0.3rem;
-                    margin-right: 0.3rem;
-
-                    img {
-                        width: 0.8rem;
-                    }
-                }
-            }
-        }
+				.footer__social {
+					margin-top: 1px;
+					margin-left: 2rem;
+				}
+      }
     }
-}
-@media screen and (min-width: 768px) {
-    .footer {
-        .wrapper {
-            margin-left: 6rem;
-            margin-right: 6rem;
-        }
-    }
+  }
 }

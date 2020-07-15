@@ -505,25 +505,25 @@
   height: auto;
   margin-top: 15.6rem;
 }
-.footer .wrapper .footer__contact {
-  margin-top: 3rem;
-}
-.footer .wrapper .footer__contact .item__direction {
+.footer .wrapper .footer__direction {
   display: flex;
 }
-.footer .wrapper .footer__contact .item__direction #img__direction {
+.footer .wrapper .footer__direction #img__direction {
   width: 1rem;
   height: 1.1rem;
   margin-top: 0.6rem;
   margin-right: 1.3rem;
 }
-.footer .wrapper .footer__contact .item__direction .copy__direction {
+.footer .wrapper .footer__direction .copy__direction {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   color: var(--white);
   margin-top: 0px;
+}
+.footer .wrapper .footer__contact {
+  margin-top: 3rem;
 }
 .footer .wrapper .footer__contact .item__phone {
   display: flex;
@@ -599,6 +599,47 @@
   .footer .wrapper {
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer .wrapper .footer__logo {
+    width: 15%;
+    margin-top: 10rem;
+  }
+  .footer .wrapper .footer__container {
+    margin-top: 1rem;
+    display: flex;
+  }
+  .footer .wrapper .footer__container .footer__direction {
+    margin-top: 1px;
+  }
+  .footer .wrapper .footer__container .footer__direction .copy__direction {
+    font-size: 13px;
+  }
+  .footer .wrapper .footer__container .footer__contact {
+    margin-top: 1px;
+    margin-left: 2rem;
+  }
+  .footer .wrapper .footer__container .footer__contact .item__phone .copy__phone {
+    font-size: 13px;
+  }
+  .footer .wrapper .footer__container .footer__contact .item__email .copy__email {
+    font-size: 13px;
+  }
+  .footer .wrapper .footer__container .footer__links {
+    display: flex;
+    margin-top: 1px;
+  }
+  .footer .wrapper .footer__container .footer__links .footer__links__container {
+    margin-top: 0px;
+  }
+  .footer .wrapper .footer__container .footer__links .footer__links__container .footer__link {
+    font-size: 13px;
+    margin-left: 2rem;
+  }
+  .footer .wrapper .footer__container .footer__social {
+    margin-top: 1px;
+    margin-left: 2rem;
   }
 }
 :root {
