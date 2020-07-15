@@ -1,7 +1,6 @@
 .sign__up {
     position: relative;
     top: 175px;
-
     .wrapper {
         border: 1px solid var(--darkBlueEmail);
         border-radius: 3%;
@@ -10,7 +9,6 @@
         padding-right: 1.3rem;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
-
         .sign__title__h1 {
             font-family: "Raleway", sans-serif;
             font-weight: 700;
@@ -30,7 +28,6 @@
         .sign__container {
             display: flex;
             flex-direction: column;
-
             .sign__email {
                 color: var(--darkBlueMain);
                 font-size: 10px;
@@ -64,6 +61,7 @@
 }
 @media screen and (min-width: 1024px) {
     .sign__up {
+        top: 108px;
         .wrapper {
             padding-left: 3rem;
             padding-right: 3rem;
