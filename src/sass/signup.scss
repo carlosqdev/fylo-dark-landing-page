@@ -85,6 +85,7 @@
 
       .sign__container {
         flex-direction: row;
+        justify-content: center;
 
         .sign__email {
           border-radius: 2rem;
@@ -99,6 +100,32 @@
           margin-left: 1rem;
           margin-top: 1rem;
           margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .sign__up {
+    .wrapper {
+      .sign__title__h1 {
+        font-size: 24px;
+      }
+
+      .sign__copy {
+        font-size: 14px;
+        padding-left: 7rem;
+        padding-right: 7rem;
+      }
+
+      .sign__container {
+        display: flex;
+        justify-content: center;
+
+
+        .sign__email {
+          font-size: 11px;
+          padding-right: 34rem;
         }
       }
     }

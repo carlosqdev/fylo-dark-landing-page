@@ -167,3 +167,33 @@
     }
   }
 }
+@media screen and (min-width: 1440px) {
+  .why {
+    .wrapper {
+      .why__group {
+        .why__item {
+          .why__copy {
+            font-size: 16px;
+            padding: 0 7rem 0 7rem;
+          }
+        }
+      }
+      .why__content {
+        .why__description {
+          .why__title__h1 {
+            padding: 0 3rem 0 3.5rem;
+          }
+
+          .why__copy {
+            font-size: 18px;
+            padding: 0 1rem 0 3.5rem;
+          }
+
+          .why__footer {
+            padding: 0 1rem 0 3.5rem;
+          }
+        }
+      }
+    }
+  }
+}

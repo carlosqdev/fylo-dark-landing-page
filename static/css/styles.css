@@ -100,7 +100,7 @@
   font-size: 14px;
   font-weight: 700;
   padding: 0.8rem 1rem;
-  border-radius: 1.3rem;
+  border-radius: 2rem;
   border-color: transparent;
   margin: 1.8rem 4.7rem 0 4.7rem;
 }
@@ -176,6 +176,35 @@
   }
   .hero .wrapper .hero__content .hero__description .button {
     margin: 1.8rem 25rem 0 25rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero .wrapper {
+    padding-top: 20rem;
+  }
+  .hero .wrapper .hero__content .hero__image {
+    margin-bottom: 70px;
+  }
+  .hero .wrapper .hero__content .hero__image .hero__imageSrc {
+    width: 40%;
+    top: -10rem;
+  }
+  .hero .wrapper .hero__content .hero__description {
+    top: -195px;
+  }
+  .hero .wrapper .hero__content .hero__description .title__h1 {
+    font-size: 32px;
+    padding-left: 25rem;
+    padding-right: 25rem;
+  }
+  .hero .wrapper .hero__content .hero__description .copy {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 22.5rem;
+    padding-right: 22.5rem;
+  }
+  .hero .wrapper .hero__content .hero__description .button {
+    margin: 1.8rem 35rem 0 35rem;
   }
 }
 .why {
@@ -305,6 +334,22 @@
     padding: 0 1rem 0 2.5rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .why .wrapper .why__group .why__item .why__copy {
+    font-size: 16px;
+    padding: 0 7rem 0 7rem;
+  }
+  .why .wrapper .why__content .why__description .why__title__h1 {
+    padding: 0 3rem 0 3.5rem;
+  }
+  .why .wrapper .why__content .why__description .why__copy {
+    font-size: 18px;
+    padding: 0 1rem 0 3.5rem;
+  }
+  .why .wrapper .why__content .why__description .why__footer {
+    padding: 0 1rem 0 3.5rem;
+  }
+}
 .info {
   margin-top: 9.5rem;
 }
@@ -400,6 +445,21 @@
     font-size: 9px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .info .card__image_quotes {
+    padding-left: 6rem;
+  }
+  .info .wrapper {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .info .wrapper .card .card__item .card__body .card__copy {
+    font-size: 12px;
+  }
+  .info .wrapper .card .card__item .card__footer .card__info .card__position {
+    font-size: 10px;
+  }
+}
 .sign__up {
   position: relative;
   top: 175px;
@@ -478,6 +538,7 @@
   }
   .sign__up .wrapper .sign__container {
     flex-direction: row;
+    justify-content: center;
   }
   .sign__up .wrapper .sign__container .sign__email {
     border-radius: 2rem;
@@ -491,6 +552,24 @@
     margin-left: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .sign__up .wrapper .sign__title__h1 {
+    font-size: 24px;
+  }
+  .sign__up .wrapper .sign__copy {
+    font-size: 14px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .sign__up .wrapper .sign__container {
+    display: flex;
+    justify-content: center;
+  }
+  .sign__up .wrapper .sign__container .sign__email {
+    font-size: 11px;
+    padding-right: 34rem;
   }
 }
 .footer {
@@ -658,6 +737,26 @@
     padding-bottom: 8px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .footer .wrapper .footer__logo {
+    margin-top: 10rem;
+  }
+  .footer .wrapper .footer__container .footer__direction {
+    padding-right: 2rem;
+  }
+  .footer .wrapper .footer__container .footer__direction .copy__direction {
+    font-size: 16px;
+  }
+  .footer .wrapper .footer__container .footer__contact .item__phone .copy__phone {
+    font-size: 16px;
+  }
+  .footer .wrapper .footer__container .footer__contact .item__email .copy__email {
+    font-size: 16px;
+  }
+  .footer .wrapper .footer__container .footer__links .footer__links__container .footer__link {
+    font-size: 16px;
+  }
+}
 :root {
   --darkBlueEmail: hsl(217, 28%, 15%);
   --darkBlueMain: hsl(218, 28%, 13%);
@@ -688,6 +787,11 @@ body {
 @media screen and (min-width: 1024px) {
   body {
     background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 32%, var(--darkBlueMain) 32%, var(--darkBlueMain) 100%);
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    background: linear-gradient(to bottom, var(--darkBlueEmail) 0%, var(--darkBlueEmail) 34%, var(--darkBlueMain) 34%, var(--darkBlueMain) 100%);
   }
 }
 

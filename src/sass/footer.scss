@@ -201,3 +201,44 @@
     }
   }
 }
+@media screen and (min-width: 1440px) {
+  .footer {
+    .wrapper {
+      .footer__logo {
+        margin-top: 10rem;
+      }
+
+      .footer__container {
+        .footer__direction {
+          padding-right: 2rem;
+
+          .copy__direction {
+            font-size: 16px;
+          }
+        }
+
+        .footer__contact {
+          .item__phone {
+            .copy__phone {
+              font-size: 16px;
+            }
+          }
+
+          .item__email {
+            .copy__email {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .footer__links {
+          .footer__links__container {
+            .footer__link {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

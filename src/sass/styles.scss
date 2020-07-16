@@ -63,3 +63,14 @@ body {
     );
   }
 }
+@media screen and (min-width: 1440px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      var(--darkBlueEmail) 0%,
+      var(--darkBlueEmail) 34%,
+      var(--darkBlueMain) 34%,
+      var(--darkBlueMain) 100%
+    );
+  }
+}
