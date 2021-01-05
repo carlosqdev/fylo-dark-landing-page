@@ -7,7 +7,7 @@ Este es un **challenge** de **Frontend Mentor** landing page tema oscuro.
 [DEMO.](https://carlosqdev.github.io/fylo-dark-landing-page/#)
 
 ## 🚀 Instalación (Getting Started).
-1. Clona este repositorio
+1. Clona este repositorio `git clone https://github.com/carlosqdev/fylo-dark-landing-page.git`
 2. Ve a la carpeta del proyecto `cd fylo-dark-landing-page`
 3. Abre con tu editor de código `code .`
 
